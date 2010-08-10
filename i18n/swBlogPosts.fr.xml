@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>h1_blog_index</source>
+        <target>Blog posts</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>label_tags</source>
+        <target>Tags : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_read_more</source>
+        <target>lire plus</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h2_comments</source>
+        <target>Commentaires</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h2_add_comments</source>
+        <target>Ajouter Commentaire</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_add_comment</source>
+        <target>Ajouter un commentaire</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>text_comments</source>
+        <target>__comments__ Commentaires</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>text_time_comment</source>
+        <target>__time__ après</target>
+      </trans-unit>
+      
+      <!-- COMPONENTS -->
+      <trans-unit id="3">
+        <source>title_show_tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_last_posts</source>
+        <target>Derniers posts</target>
+      </trans-unit>
+      
+      <!-- FEEDS -->
+      <trans-unit id="3">
+        <source>latest_posts</source>
+        <target>Les derniers posts</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>posts_by_tag</source>
+        <target>Les derniers posts : _tag_</target>
+      </trans-unit>
+      
+      <!-- EMAIL -->
+      <trans-unit id="3">
+        <source>title_subject_new_comment</source>
+        <target>Nouveau commentaire : _title_</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_email_header</source>
+        <target>Une personne vient de rajouter un commentaire sur votre blog !</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_name</source>
+        <target>Nom      : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_email</source>
+        <target>Email    : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_url</source>
+        <target>Site web : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_message</source>
+        <target>Message : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_email_footer</source>
+        <target>--</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

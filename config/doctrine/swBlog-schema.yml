@@ -1,0 +1,109 @@
+swBlogPost:
+  tableName: sw_blog_posts
+  
+  columns:
+#    id:
+#      type: integer
+#      primary: true
+    title: string(255)
+    content: clob
+    raw_content: clob
+    format_content: varchar(10)
+    slug: 
+      type: string(255)
+    published: boolean
+    comment_is_enabled: boolean
+    comment_close_at: date
+    
+  relations:
+    swBlogPostTags:
+      type: many
+      class: swBlogTag
+      local: blog_post_id
+      foreign: blog_tag_id
+      refClass: swBlogPostTag
+      foreignAlias: swBlogPosts
+    swBlogComments:
+      class: swBlogComment
+      type: many
+      local: id
+      foreign: post_id
+      
+  actAs:
+    I18n:
+      fields: [raw_content, slug, title, content]
+      tableName: sw_blog_post_translation
+    Timestampable:
+  
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+
+swBlogPostTag:
+  tableName: sw_blog_post_tags
+  
+  columns:
+    blog_post_id: integer
+    blog_tag_id: integer
+
+  relations:
+    swBlogPost:
+      type: one
+      local: blog_post_id
+      foreign: id
+    swBlogTag:
+      type: one
+      local: blog_tag_id
+      foreign: id
+      
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+  
+swBlogTag:
+  tableName: sw_blog_tags
+  
+  columns:
+    name: string(255)
+  
+  actAs:
+    I18n:
+      fields: [name]
+      tableName: sw_blog_tag_translation
+    Timestampable:
+  
+  relations:
+    swBlogPostTags:
+      class: swBlogPostTag
+      type: many
+      local: id
+      foreign: blog_tag_id
+    
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8
+    
+swBlogComment:
+  tableName: sw_blog_comments
+  
+  columns:
+    post_id: integer
+    name: string(255)
+    email: string(255)
+    url: string(255)
+    message: clob
+    moderated: integer
+
+  actAs:
+    Timestampable:
+  
+  relations:
+    swBlogPost:
+      class: swBlogPost
+      type: one
+      local: post_id
+      foreign: id
+      
+  options:
+    collate: utf8_unicode_ci
+    charset: utf8

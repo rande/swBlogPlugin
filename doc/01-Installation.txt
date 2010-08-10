@@ -1,0 +1,54 @@
+Installation
+============
+
+  * Get code from the svn
+     $ svn co .... plugins/swBlogPlugin
+
+  * Enable dql callback and native enum in doctrine.yml
+  
+      [yml]
+      use_dql_callbacks: true
+      use_native_enum: true
+
+  * rebuild the model and the form
+     $ ./symfony doctrine:build-model
+     $ ./symfony doctrine:build-form yourapp
+     $ ./symfony cc
+     
+  * Insert the SQL into your database
+  
+      [sql]
+      CREATE TABLE sw_blog_comments (id BIGINT AUTO_INCREMENT, post_id BIGINT, name VARCHAR(255), email VARCHAR(255), url VARCHAR(255), message LONGTEXT, moderated ENUM('-1', '0', '1'), created_at DATETIME, updated_at DATETIME, INDEX post_id_idx (post_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      CREATE TABLE sw_blog_posts (id BIGINT AUTO_INCREMENT, published TINYINT(1), comment_is_enabled TINYINT(1), comment_close_at DATE, created_at DATETIME, updated_at DATETIME, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      CREATE TABLE sw_blog_post_translation (id BIGINT, title VARCHAR(255), content LONGTEXT, slug VARCHAR(255), lang CHAR(2), UNIQUE INDEX sluggable_idx (slug), PRIMARY KEY(id, lang)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      CREATE TABLE sw_blog_post_tags (id BIGINT AUTO_INCREMENT, blog_post_id BIGINT, blog_tag_id BIGINT, INDEX blog_post_id_idx (blog_post_id), INDEX blog_tag_id_idx (blog_tag_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      CREATE TABLE sw_blog_tags (id BIGINT AUTO_INCREMENT, created_at DATETIME, updated_at DATETIME, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      CREATE TABLE sw_blog_tag_translation (id BIGINT, name VARCHAR(255), lang CHAR(2), PRIMARY KEY(id, lang)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+      ALTER TABLE sw_blog_comments ADD FOREIGN KEY (post_id) REFERENCES sw_blog_posts(id);
+      ALTER TABLE sw_blog_post_translation ADD FOREIGN KEY (id) REFERENCES sw_blog_posts(id) ON UPDATE CASCADE ON DELETE CASCADE;
+      ALTER TABLE sw_blog_post_tags ADD FOREIGN KEY (blog_tag_id) REFERENCES sw_blog_tags(id);
+      ALTER TABLE sw_blog_post_tags ADD FOREIGN KEY (blog_post_id) REFERENCES sw_blog_posts(id);
+      ALTER TABLE sw_blog_tag_translation ADD FOREIGN KEY (id) REFERENCES sw_blog_tags(id) ON UPDATE CASCADE ON DELETE CASCADE;
+
+   * app.yml
+   
+      [yml]
+      all:
+        cultures: 
+          available: {en: English, fr: Francais}
+      
+        recaptcha:
+          private_key: 6LefAAQAAAAAADxAK2a2TnZIoKIN900YSGYuRDKW
+          public_key: 6LefAAQAAAAAAEKkPoPzL4tvBDo-mCiZ3ZRwgtyA
+   
+        swBlogPlugin:
+          title:
+            fr: Le titre du blog
+            en: Blog Title
+          post_per_page: 5
+          author: Your name
+          email:
+            from: Blog <no-reply@soleoweb.com>
+            to: blogowner@blogownerdomain.com
+            
+`

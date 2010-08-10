@@ -1,0 +1,8 @@
+# 3 July 2009
+# ------------
+#
+# - add format and raw_content option
+ALTER TABLE `sw_blog_posts` ADD `format_content` VARCHAR( 10 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ;
+ALTER TABLE `sw_blog_post_translation` ADD `raw_content` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL;
+UPDATE `sw_blog_posts` SET format_content = 'richhtml' WHERE 1;
+UPDATE `sw_blog_post_translation` SET raw_content = content WHERE 1;

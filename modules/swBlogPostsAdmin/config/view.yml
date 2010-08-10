@@ -1,0 +1,14 @@
+editSuccess:
+  javascripts:
+    - /js/tiny_mce/tiny_mce.js
+    - /swFormExtraPlugin/js/markitup/jquery.markitup.pack.js
+    - /swFormExtraPlugin/js/markitup/sets/default/set.js
+    - /swFormExtraPlugin/js/markitup/sets/markdown/set.js
+    - /swFormExtraPlugin/js/markitup/sets/textile/set.js
+    - /swBlogPlugin/js/backend/edit.js
+    
+  stylesheets:
+    - /swFormExtraPlugin/js/markitup/skins/markitup/style.css
+    - /swFormExtraPlugin/js/markitup/sets/default/style.css
+    - /swFormExtraPlugin/js/markitup/sets/markdown/style.css
+    - /swFormExtraPlugin/js/markitup/sets/markitup/style.css

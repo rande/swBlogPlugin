@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <!--  Index Page -->
+      <trans-unit id="1">
+        <source>title_list_posts</source>
+        <target>Posts List</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>title_filters</source>
+        <target>Filters</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_slug</source>
+        <target>Slug</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_published</source>
+        <target>Published</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_created_at</source>
+        <target>Created At</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_create</source>
+        <target>Create a new post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_filter</source>
+        <target>Filter</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      
+      <!--  Edit Page -->
+      <trans-unit id="3">
+        <source>title_new_blog_post</source>
+        <target>New Post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h3_general_options</source>
+        <target>General Options</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_comment_is_enabled</source>
+        <target>Enabled comments</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_comment_close_at</source>
+        <target>Comment close at</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h3_translations</source>
+        <target>Translations</target>
+      </trans-unit>
+      
+      
+      <trans-unit id="3">
+        <source>h3_tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_edit_blog_post</source>
+        <target>Edit Post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_published</source>
+        <target>Published</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_tags_list</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_content</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_traduction_langue</source>
+        <target>_name_ (_lang_)</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_are_you_sure</source>
+        <target>Are you sure ?</target>
+      </trans-unit>
+      
+       
+    </body>
+  </file>
+</xliff>

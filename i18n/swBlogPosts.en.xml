@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>h1_blog_index</source>
+        <target>Blog posts</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>label_tags</source>
+        <target>Tags : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_read_more</source>
+        <target>read more</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h2_comments</source>
+        <target>Comments</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h2_add_comments</source>
+        <target>Add comment</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_add_comment</source>
+        <target>Add your comment</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>text_comments</source>
+        <target>__comments__ Comments</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>text_time_comment</source>
+        <target>__time__ after</target>
+      </trans-unit>
+      
+      <!-- COMPONENTS -->
+      <trans-unit id="3">
+        <source>title_show_tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_last_posts</source>
+        <target>Last posts</target>
+      </trans-unit>
+      
+      <!-- FEEDS -->
+      <trans-unit id="3">
+        <source>latest_posts</source>
+        <target>Latest Posts</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>posts_by_tag</source>
+        <target>Latest Posts : _tag_</target>
+      </trans-unit>
+
+      <!-- EMAIL -->
+      <trans-unit id="3">
+        <source>title_subject_new_comment</source>
+        <target>New comment : _title_</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_email_header</source>
+        <target>You received this email because someone just add a new comment to your blog</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_name</source>
+        <target>Name    : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_email</source>
+        <target>Email   : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_url</source>
+        <target>Website : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email_message</source>
+        <target>Message : </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_email_footer</source>
+        <target>--</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

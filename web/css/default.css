@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+div.sw_blog_post_content pre
+{
+  background-color:#222222;
+  color:#FFFFFF;
+  font-family:"Bitstream Vera Sans Mono",monospace;
+  font-size:15px;
+  line-height:17px;
+  overflow:auto;
+  padding:0.5em 0 0.5em 1em;
+}
+
+.php .imp {font-weight: bold; color: red}
+  .php .kw1 {color: #FF8400}
+  .php .kw2 {color: #FFCC66}
+  .php .kw3 {color: #07DFFC}
+  .php .co1 {color: #BD48B3; font-style: italic}
+  .php .co2 {color: #BD48B3; font-style: italic}
+  .php .coMULTI {color: #BD48B3; font-style: italic}
+.php .es0 {color: #ddd}
+  .php .br0 {color: #fff}
+  .php .st0 {color: #99FF00}
+  .php .nu0 {color: #66CC66}
+  .php .me1 {color: #FFCC66}
+  .php .me2 {color: #FFCC66}
+  .php .re0 {color: #fff}
+  .php a {text-decoration: none}
+
+.xml .imp {font-weight: bold; color: red}
+  .xml .coMULTI {color: #BD48B3; font-style: italic}
+.xml .es0 {color: #0000aa; font-weight: bold}
+.xml .br0 {color: #66cc66}
+  .xml .st0 {color: #99FF00}
+.xml .nu0 {color: #cc66cc}
+.xml .sc0 {color: #00bbdd}
+.xml .sc1 {color: #ddbb00}
+.xml .sc2 {color: #339933}
+  .xml .sc3 {color: #fff}
+  .xml .re0 {color: #FFFF99}
+  .xml .re1 {color: #FFCC66}
+  .xml .re2 {color: #FFCC66}
+
+.css .imp {font-weight: bold; color: red}
+.css .kw1 {color: #fff}
+.css .kw2 {color: #993333}
+.css .co1 {color: #a1a100}
+.css .coMULTI {color: #808080; font-style: italic}
+.css .es0 {color: #000099; font-weight: bold}
+.css .br0 {color: #66cc66}
+.css .st0 {color: #ff0000}
+.css .nu0 {color: #cc66cc}
+.css .re0 {color: #cc00cc}
+.css .re1 {color: #6666ff}
+.css .re2 {color: #3333ff}
+
+.javascript .imp {font-weight: bold; color: red}
+  .javascript .kw1 {color: #FF8400}
+  .javascript .kw2 {color: #FFCC66}
+  .javascript .kw3 {color: #07DFFC}
+  .javascript .co1 {color: #BD48B3; font-style: italic}
+  .javascript .coMULTI {color: #BD48B3; font-style: italic}
+.javascript .es0 {color: #000099}
+  .javascript .br0 {color: #fff}
+  .javascript .st0 {color: #99FF00}
+  .javascript .nu0 {color: #66CC66}
+  .javascript .me1 {color: #FFCC66}
+  .javascript .re0 {color: #fff}

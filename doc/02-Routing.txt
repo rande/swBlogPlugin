@@ -1,0 +1,39 @@
+sw_blog_add_comment:
+  url: /blog/add-comment/:id
+  param: { module: swBlogPosts, action: addComment}
+  requirements:
+    id: \d+
+  options:
+    generate_shortest_url: true
+    extra_parameters_as_query_string: true
+
+sw_blog_view_post:
+  url: /blog/:year/:month/:day/:slug.:sf_format
+  param: { module: swBlogPosts, action: view, sf_format: html}
+  requirements:
+    sf_format: (?:html|atom)
+    year: \d+
+    month: \d+
+    day: \d+
+  options:
+    generate_shortest_url: true
+    extra_parameters_as_query_string: true
+
+sw_blog_tag_index:
+  url: /blog/tag/:tag.:sf_format
+  param: { module: swBlogPosts, action: indexByTag, sf_format: html}
+  requirements:
+    sf_format: (?:html|atom)
+  options:
+    generate_shortest_url: true
+    extra_parameters_as_query_string: true
+    
+sw_blog_index:
+  url: /blog.:sf_format
+  param: { module: swBlogPosts, action: index, sf_format: html}
+  requirements:
+    sf_format: (?:html|atom)
+  options:
+    generate_shortest_url: true
+    extra_parameters_as_query_string: true
+  

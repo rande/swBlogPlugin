@@ -1,0 +1,20 @@
+The BaseFormDoctrine must have these fallowing methods 
+
+    [php]
+    abstract class BaseFormDoctrine extends sfFormDoctrine
+    {
+      public function getCulturesAvailable()
+      {
+        
+        return sfConfig::get('app_cultures_available', array());
+      }
+    
+      public function setup()
+      {
+        if($this->isI18n())
+        {
+          $this->embedI18n(array_keys($this->getCulturesAvailable()));
+        }
+      }
+    }
+    

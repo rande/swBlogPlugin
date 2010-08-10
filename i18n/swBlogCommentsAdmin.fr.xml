@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <!--  Index Page -->
+      <trans-unit id="1">
+        <source>title_comments_list</source>
+        <target>Liste des commentaires</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>title_filter</source>
+        <target>Filtres</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>label_moderated</source>
+        <target>Status ?</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>label_post_id</source>
+        <target>Post #</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>btn_filter</source>
+        <target>Filtrer</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>btn_reset</source>
+        <target>Remise à zéro</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>th_comment</source>
+        <target>Commentaire</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>link_create</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="1">
+        <source>link_edit</source>
+        <target>Editer</target>
+      </trans-unit>
+      
+      <!-- STATUS -->
+      <trans-unit id="3">
+        <source>status_all</source>
+        <target>Tous</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>status_visible_and_not_moderated</source>
+        <target>Visible et non moderé</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>status_not_moderated</source>
+        <target>Non modéré</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>status_moderated</source>
+        <target>Modéré (caché)</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>status_validated</source>
+        <target>Visible</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>status_removed</source>
+        <target>Supprimé</target>
+      </trans-unit>
+      
+      <trans-unit id="3">
+        <source>option_moderated_none</source>
+        <target>Indéfini</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>option_moderated_ok</source>
+        <target>Validé</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>option_moderated_ko</source>
+        <target>Modéré (caché)</target>
+      </trans-unit>
+      
+      <!--  Action Page -->
+      <trans-unit id="3">
+        <source>show_post</source>
+        <target>Afficher le post</target>
+      </trans-unit>
+      
+      <!--  Edit Page -->
+      <trans-unit id="3">
+        <source>title_new_blog_comment</source>
+        <target>Nouveau Commentaire</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_edit_blog_comment</source>
+        <target>Edition Commentaire</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_url</source>
+        <target>Url</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_cancel</source>
+        <target>Annulé</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_save</source>
+        <target>Sauvegarder</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

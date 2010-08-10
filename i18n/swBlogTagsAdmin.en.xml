@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <!--  Index Page -->
+      <trans-unit id="1">
+        <source>title_list_tags</source>
+        <target>Tags List</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>th_name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_create</source>
+        <target>Create</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_filters</source>
+        <target>Filters</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_filter</source>
+        <target>Filter</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      
+      <!--  Edit Page -->
+      <trans-unit id="3">
+        <source>title_edit_tag</source>
+        <target>Edit Tag</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>are_you_sure</source>
+        <target>Are you sure ?</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

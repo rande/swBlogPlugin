@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_EN" datatype="plaintext">
+    <body>
+      <!--  Index Page -->
+      <trans-unit id="1">
+        <source>title_list_posts</source>
+        <target>Liste des Posts</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>title_filters</source>
+        <target>Filtres</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_slug</source>
+        <target>Fragment d'URL</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_published</source>
+        <target>Publié</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_created_at</source>
+        <target>Creé</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>th_actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_create</source>
+        <target>Créer un nouveau post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_reset</source>
+        <target>Remettre à zéro</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_filter</source>
+        <target>Filtrer</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_edit</source>
+        <target>Editer</target>
+      </trans-unit>
+      
+      <!--  Edit Page -->
+      <trans-unit id="3">
+        <source>title_new_blog_post</source>
+        <target>Nouveau Post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h3_general_options</source>
+        <target>Options Générales</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_comment_is_enabled</source>
+        <target>Autoriser les commentaires</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_comment_close_at</source>
+        <target>Clôture des commentaires</target>
+      </trans-unit>
+         <trans-unit id="3">
+        <source>h3_tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_edit_blog_post</source>
+        <target>Edition Post</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>h3_translations</source>
+        <target>Traductions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_published</source>
+        <target>Publier</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_tags_list</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>label_content</source>
+        <target>Contenu</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title_traduction_langue</source>
+        <target>_name_ (_lang_)</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>btn_save</source>
+        <target>Sauvegarder</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_cancel</source>
+        <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>link_delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>message_are_you_sure</source>
+        <target>Êtes-vous sur ?</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
